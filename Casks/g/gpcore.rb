@@ -1,9 +1,9 @@
 cask "gpcore" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "24.4.1"
-  sha256 arm:   "cc2969ef25859f822990f4644f80d0816cac70f4ecea9b36fa4081cd09363e0f",
-         intel: "e79154f9f017619cd8ed6a82c209634a66101c1f71b748f075c53d2e367854c3"
+  version "24.5.0"
+  sha256 arm:   "70e5c29aff0dc0c347d58b8df2be0548b6e80795c19f4ce8bd102a55133ff24e",
+         intel: "c0df246816adad3d7a25c619daafffca8fccd4e2fad642aff597b23deb5da075"
 
   url "https://github.com/G-PORTAL/gpcore-cli/releases/download/v#{version}/gpcore_darwin_#{arch}.tar.gz",
       verified: "github.com/G-PORTAL/gpcore-cli/"
